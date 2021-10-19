@@ -1,21 +1,11 @@
-#title{
+
+table, th, td {
+    border: 1px solid black;
     text-align: center;
-}
-#reservation{
-    margin-top:20px;
-    margin-left:600px;
+  }
+#heading{
+    height: 100px;
 }
 #logo{
-    margin-top: 30px;
-    margin-left: 30px;
-}
-#divpage {
-    background-image: url("../images/paris.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
-#divtitle,#divlogo{
-    background-image: url("../images/home.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
+    height:150px;
 }
