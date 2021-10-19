@@ -1,6 +1,7 @@
-
+body{
+    background-image: url('../images/nice.jpg');
+}
 table, th, td {
-    border: 1px solid black;
     text-align: center;
   }
 #heading{
@@ -9,3 +10,13 @@ table, th, td {
 #logo{
     height:150px;
 }
+.button {
+    background-color: blue;
+    width: 280px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid yellow;
+    color: white;
+    text-align: center;
+  }
