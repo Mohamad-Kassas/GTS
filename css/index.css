@@ -209,13 +209,13 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
     width: 100%;
     margin-top: 2rem;
 }
 
 .footer__link--wrapper {
     display: flex;
-    align-items: center;
 }
 
 .footer__link--items {
@@ -273,7 +273,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 100px;
+    height: 100px;
 }
 
 .footer__social__icons--link:hover {
@@ -281,3 +282,12 @@ button:hover {
     transition: 0.3 ease-out
 }
 
+.footer__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
