@@ -291,3 +291,18 @@ button:hover {
     cursor: pointer;
     margin-bottom: 16px;
 }
+
+
+/* About Page CSS */
+
+.AboutPageContainer{
+    width: 1280px;
+    height: 300px;
+}
+
+.AboutPageImages{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
