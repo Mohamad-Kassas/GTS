@@ -296,8 +296,11 @@ button:hover {
 /* About Page CSS */
 
 .AboutPageHeadContainer{
+    margin-top: 60px;
     width: 1280px;
     height: 300px;
+    color: ghostwhite;
+
 }
 
 .AboutPageImages{
@@ -305,4 +308,28 @@ button:hover {
     float: left;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+
+}
+
+.AboutPageLogo{
+    height: 370px;
+    margin-left: 410px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("../pages/images/logo.png");
+
+}
+
+.AboutPageDescriptionContainer{
+    width: 1100px;
+    height: 300px;
+    font-family: 'Poppins', sans-serif;
+    color: ghostwhite;
+    margin-left: 150px;
+}
+
+.AboutPageDescriptions{
+    width: 50%;
+    float: left;
+
 }
