@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:ital,wght@1,800&family=Poppins&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #24252A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    width: 100;
+    padding: 0px 0px;
+    background-color: #24252A;
+}
+
+.about img {
+    height: auto;
+    width: 35%;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    margin: 0 auto;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    font-size: 25px;
+    color: rgba(16, 164, 209, 0.87);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.personalbutton {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
